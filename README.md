@@ -2,6 +2,8 @@
 
 An interactive, independently planned trip for four friends, with flights and travel inside **5–22 August 2027**. All bookings and flight connections remain to be confirmed.
 
+**[Open the trip website](https://judsonlmoore.github.io/mongolia-2027-trip/)**
+
 ## Use the site
 
 - Select a stop or driving stage to see its photo, dates, overnight plan, estimated drive time, and road-access notes.
