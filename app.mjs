@@ -44,14 +44,17 @@ function renderMap() {
     routeGroup=L.featureGroup().addTo(map);
   }
   routeGroup.clearLayers();
+  let selectedLine;
   for(const leg of legs){
     if(leg.coordinates.length<2)continue;
     // A wide invisible target makes narrow road lines usable without changing their appearance.
     L.polyline(leg.coordinates,{weight:18,opacity:0}).on('click',()=>selectVisit(leg.visitIndex)).addTo(routeGroup);
     const active=leg.visitIndex===selected;
     const line=L.polyline(leg.coordinates,{color:active?'#bc633c':leg.geometryKind==='approximate'?'#64716a':'#254a40',weight:active?5:3,opacity:active?1:.7,dashArray:leg.geometryKind==='approximate'?'7 7':null}).on('click',()=>selectVisit(leg.visitIndex));
-    line.bindTooltip(`${e(places[leg.fromId].shortName)} → ${e(places[leg.toId].shortName)} · ${e(hoursLabel(leg.hours))}`,{className:'route-tooltip',sticky:true}); line.addTo(routeGroup); if(active)line.bringToFront();
+    line.bindTooltip(`${e(places[leg.fromId].shortName)} → ${e(places[leg.toId].shortName)} · ${e(hoursLabel(leg.hours))}`,{className:'route-tooltip',sticky:true}); line.addTo(routeGroup); if(active)selectedLine=line;
   }
+  // Outbound and return stages share roads; keep the selected trace visible above both.
+  if(selectedLine)selectedLine.bringToFront();
   const seen=new Set();
   for(const visit of schedule.visits){
     if(seen.has(visit.placeId))continue;seen.add(visit.placeId);
