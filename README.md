@@ -23,6 +23,8 @@ Changes save on the current device. This static site has no accounts, server dat
 
 The repository is bootstrapped from a minimal `staging` baseline, with the site on **`feature/trip-planner`**. GitHub Pages publishes that feature branch’s root. This publishes the requested website without merging into protected integration branches. No `main` branch is used. Future integration into `staging` requires the owner’s explicit approval under the standing Git policy.
 
+JSON data is requested without browser caching so a reload sees the latest shared default (unless a local or snapshot plan is selected). When changing JavaScript or CSS, increment the asset query versions in `index.html` and the `core.mjs` import in `app.mjs`, alongside `package.json`, to prevent older browsers retaining a previous release.
+
 To add or refresh researched destination information, edit `data/destinations.json`. Pin coordinates, their sources, and driving traces live in `data/route-geometry.json`. Custom places in an exported plan need no source-code edit to appear.
 
 ## Road geometry

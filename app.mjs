@@ -1,10 +1,10 @@
-import {addDays,buildSchedule,decodePlan,encodePlan,escapeHtml as e,formatDate,getLeg,hoursLabel,safeUrl,scheduleMessage,validatePlan} from './core.mjs';
+import {addDays,buildSchedule,decodePlan,encodePlan,escapeHtml as e,formatDate,getLeg,hoursLabel,safeUrl,scheduleMessage,validatePlan} from './core.mjs?v=1.0.1';
 const $ = selector => document.querySelector(selector);
 const STORAGE_KEY = 'mongolia-2027-plan-v1';
 let original,plan,destinations,geometry,photos,places,schedule,legs,map,routeGroup,selected=1,draft,filter='all',versionLabel='Original shared plan',toastTimer;
 const euro = value => new Intl.NumberFormat('en-GB',{style:'currency',currency:'EUR',maximumFractionDigits:0}).format(value);
 const external = (url,label) => safeUrl(url) ? `<a href="${e(safeUrl(url))}" target="_blank" rel="noopener noreferrer">${e(label)} ↗</a>` : '';
-const readJson = async path => { const response=await fetch(path); if(!response.ok) throw new Error(`Could not load ${path}.`); return response.json(); };
+const readJson = async path => { const response=await fetch(path,{cache:'no-store'}); if(!response.ok) throw new Error(`Could not load ${path}.`); return response.json(); };
 function toast(message) { clearTimeout(toastTimer); $('#toast').textContent=message; $('#toast').hidden=false; toastTimer=setTimeout(()=>$('#toast').hidden=true,4500); }
 function storageRead() { try { return localStorage.getItem(STORAGE_KEY); } catch { return null; } }
 function saveLocally() { try { localStorage.setItem(STORAGE_KEY,JSON.stringify(plan)); return true; } catch { toast('Changes are active. Browser storage is unavailable; export or copy a link to keep them.'); return false; } }
