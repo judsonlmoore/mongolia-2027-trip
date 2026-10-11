@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="An editable Mongolia road trip for four friends: 5–22 August 2027. Explore the route, driving stages, ger stays, hot springs, and volcanic landscapes.">
+  <meta name="theme-color" content="#254a40">
+  <meta property="og:title" content="Mongolia · August 2027">
+  <meta property="og:description" content="Our road trip, at our own pace. Explore the route and share a revised plan.">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/vendor/leaflet.css">
+  <link rel="stylesheet" href="styles.css">
+  <title>Mongolia · August 2027</title>
+</head>
+<body>
+  <a class="skip-link" href="#route">Skip to the route</a>
+  <header class="site-header">
+    <a class="wordmark" href="#top" aria-label="Mongolia trip home"><span class="mark" aria-hidden="true">↟</span> MONGOLIA <span class="wordmark-year">/ 2027</span></a>
+    <nav aria-label="Main navigation"><a href="#route">The route</a><a href="#itinerary">The days</a><a href="#practical">The details</a></nav>
+    <button class="button button-small" id="edit-plan">Edit plan <span aria-hidden="true">↗</span></button>
+  </header>
+  <main id="top">
+    <section class="hero" aria-labelledby="hero-title">
+      <img class="hero-photo" src="assets/photos/terkhiin.webp" alt="Gers on the shore of Mongolia’s Great White Lake" fetchpriority="high" width="1400" height="851">
+      <div class="hero-shade"></div>
+      <div class="hero-content">
+        <p class="eyebrow hero-eyebrow">FOUR FRIENDS. ONE OPEN ROAD.</p>
+        <h1 id="hero-title">Mongolia,<br><em>at our own pace.</em></h1>
+        <p class="hero-description">From the steppe to a volcanic lake. Ger stays, long horizons, and a little room to wander.</p>
+        <a class="hero-link" href="#route">Explore our route <span aria-hidden="true">↓</span></a>
+      </div>
+      <div class="hero-caption">Great White Lake · <a href="https://commons.wikimedia.org/wiki/File:Terkhiin_Tsagaan_Lake_01.jpg" target="_blank" rel="noopener noreferrer">Bernard Gagnon / CC0</a></div>
+    </section>
+    <div class="trip-strip" aria-label="Trip at a glance" id="trip-strip"></div>
+    <section class="section route-section" id="route" aria-labelledby="route-title">
+      <div class="section-intro">
+        <div><p class="eyebrow">THE ROAD AHEAD</p><h2 id="route-title">A loop through the heartland.</h2></div>
+        <p>Click a stop or a driving stage to explore it. We take the longer road from Orkhon to Tsenkher, with time to settle in along the way.</p>
+      </div>
+      <div class="route-layout">
+        <div class="map-column">
+          <div class="map-toolbar"><span id="route-summary">Loading the route…</span><button class="text-button" id="fit-route">Show full route ↗</button></div>
+          <div id="map" aria-label="Interactive map of the Mongolia driving route"></div>
+          <div id="map-fallback" class="map-fallback" hidden>The map could not load. All stops and driving stages are available below.</div>
+          <div class="map-legend"><span><i class="legend-road"></i> Mapped road</span><span><i class="legend-selected"></i> Selected stage</span><span><i class="legend-approx"></i> Connection needs routing</span></div>
+          <p class="map-note">Planning map, not navigation. Road traces do not confirm access, weather conditions, or rental permission. Stop pins mark the area or attraction, not a confirmed overnight booking.</p>
+          <div class="stage-list" id="stage-list" aria-label="Driving stages"></div>
+        </div>
+        <aside class="stop-panel" id="stop-panel" aria-label="Selected stop"></aside>
+      </div>
+    </section>
+    <section class="section itinerary-section" id="itinerary" aria-labelledby="itinerary-title">
+      <div class="section-intro"><div><p class="eyebrow">A LITTLE STRUCTURE. A LOT OF SPACE.</p><h2 id="itinerary-title">The days, loosely planned.</h2></div><p>Leave Berlin on 5 August. Be home on 22 August. Everything in between is a plan we can keep shaping.</p></div>
+      <div class="itinerary-tools"><div class="filter-group" aria-label="Filter itinerary"><button class="filter active" data-filter="all" aria-pressed="true">All days</button><button class="filter" data-filter="drive" aria-pressed="false">Driving days</button><button class="filter" data-filter="slow" aria-pressed="false">Slow days</button></div><button class="text-button" id="print-plan">Print itinerary ↗</button></div>
+      <p id="schedule-warning" class="notice warning" hidden></p>
+      <div id="itinerary-list" class="itinerary-list"></div>
+    </section>
+    <section class="festival-section" aria-labelledby="festival-title">
+      <div class="festival-inner"><div><p class="eyebrow">A POSSIBLE GRAND FINALE</p><h2 id="festival-title">Living traditions,<br><em>together.</em></h2></div><div><span class="status-tag">2027 dates unconfirmed</span><p>The Nomads World Cultural Festival brings together crafts, music, cultural demonstrations, and traditional sports. In 2026 it took place on 21–23 August near Nalaikh.</p><p>Our final days near Terelj and Ulaanbaatar leave room to attend if the 2027 dates align. Keep those stays flexible; the festival is a possibility, not a booked event.</p><a href="https://www.gov.mn/news/n/84ee" target="_blank" rel="noopener noreferrer">Read the official 2026 programme ↗</a></div></div>
+    </section>
+    <section class="section" id="practical" aria-labelledby="practical-title">
+      <div class="section-intro"><div><p class="eyebrow">THE SMALL THINGS THAT MATTER</p><h2 id="practical-title">Make room for the experience.</h2></div><p>Independent travel, direct bookings, and a balance of simple family stays and a few comfortable evenings.</p></div>
+      <div class="practical-grid">
+        <article><span class="detail-number">01 / THE VEHICLE</span><h3>A proper 4×4.</h3><p id="vehicle-plan">A Land Cruiser or Prado with low range, sensible luggage, and supplier-provided recovery equipment.</p><p>Get the route and permitted tracks confirmed in writing. Unbridged rivers, open grassland, and dunes may fall outside rental protection. Pack offline maps, water, and backup communication.</p><a href="https://www.sixt.com/car-rental/mongolia/" target="_blank" rel="noopener noreferrer">Check rental restrictions ↗</a></article>
+        <article><span class="detail-number">02 / THE STAYS</span><h3>A ger, then a little luxury.</h3><p id="stay-plan">Family stays, comfortable camps, and a few hotel upgrades.</p><p>Confirm meals, bathroom arrangements, the current summer location, and access directions directly. Family stays and tourist ger camps offer different experiences.</p><a href="https://www.fairfield.mn/" target="_blank" rel="noopener noreferrer">A useful local planning contact ↗</a></article>
+        <article><span class="detail-number">03 / THE BUDGET</span><h3>Comfort, without rushing.</h3><div id="budget-details"></div><p>Initial group estimate: €4,800–6,400 for stays, food, and activities, plus €2,800–4,500 for a shared SUV, protection, fuel, and equipment. Flights and any refundable rental deposit are additional. These are planning allowances, not quotes.</p></article>
+      </div>
+      <div class="planning-notes"><h3>Before we go</h3><p>Flight times, accommodation, family hosts, and festival attendance are not booked. Check passport and licence requirements for each traveller, remote-travel insurance, fuel availability, and local track conditions. Build in weather flexibility and avoid rural driving after dark.</p><a href="https://www.auswaertiges-amt.de/de/reiseundsicherheit/mongoleisicherheit-222842" target="_blank" rel="noopener noreferrer">Current Mongolia travel guidance ↗</a></div>
+    </section>
+    <section class="share-section"><div><p class="eyebrow">OUR PLAN CAN CHANGE</p><h2>Make it ours.</h2><p>Edit the stops, nights, and notes. Changes stay on this device until you share a link or export a plan. A shared link opens that exact version.</p></div><div class="share-actions"><button class="button" id="share-plan">Copy this plan’s link ↗</button><button class="button button-outline" id="export-plan">Export plan</button><button class="text-button" id="import-plan">Import a plan ↗</button><input type="file" id="import-file" accept="application/json,.json" hidden><p id="version-label" class="version-label">Original shared plan</p></div></section>
+  </main>
+  <footer><div class="footer-top"><span class="wordmark">↟ MONGOLIA / 2027</span><span>A plan for four friends. All bookings still to come.</span></div><div class="footer-bottom"><button class="text-button" id="photo-credits">Photo credits & map sources</button><a id="repo-link" href="https://github.com/judsonlmoore/mongolia-2027-trip" target="_blank" rel="noopener noreferrer">Project on GitHub ↗</a><span>Trip research · October 2026</span></div></footer>
+  <dialog id="editor" aria-labelledby="editor-title"><form id="editor-form"><div class="dialog-heading"><div><p class="eyebrow">YOUR VERSION OF THE JOURNEY</p><h2 id="editor-title">Edit the plan.</h2></div><button type="button" class="icon-button" data-close="editor" aria-label="Close editor">×</button></div><p class="editor-help">Save changes on this device, then copy a link to share them. The public starting plan changes only when the site owner updates it.</p><div class="editor-fields"><label>Leave Berlin<input type="date" name="startDate" required></label><label>Home in Berlin<input type="date" name="endDate" required></label><label>Travellers<input type="number" name="people" min="1" max="8" required></label><label>Stays / person / night (€)<input type="number" name="stayBudget" min="0" max="1000" required></label><label>Other costs / person / day (€)<input type="number" name="otherBudget" min="0" max="1000" required></label></div><p class="editor-assumption">Arrival is the day after departure. Flight connections must fit the chosen dates.</p><div class="editor-route-heading"><h3>Stops & nights</h3><button type="button" class="text-button" id="add-stop">Add a stop +</button></div><div id="editor-stops"></div><div id="add-stop-fields" class="add-stop-fields" hidden><label>Destination<select id="new-destination"></select></label><div id="custom-place-fields" hidden><label>Place name<input id="new-place-name" maxlength="120"></label><div class="coordinate-fields"><label>Latitude<input id="new-place-lat" type="number" step="any" min="-90" max="90"></label><label>Longitude<input id="new-place-lng" type="number" step="any" min="-180" max="180"></label></div><p class="editor-help">Use a verified map pin. New connections appear dashed until a road route is added.</p></div><button type="button" class="button button-small" id="confirm-add-stop">Add before the final city night</button></div><p id="editor-message" class="notice" aria-live="polite"></p><div class="dialog-actions"><button type="button" class="text-button" id="reset-plan">Restore original plan</button><button type="submit" class="button">Save my plan ↗</button></div></form></dialog>
+  <dialog id="credits" aria-labelledby="credits-title"><div class="dialog-heading"><h2 id="credits-title">Photos & map sources</h2><button class="icon-button" data-close="credits" aria-label="Close credits">×</button></div><p>Real photographs of the places on our route. Images were resized and converted to WebP; layouts may crop their display. Each photograph retains its own licence.</p><div id="credits-list"></div><div class="map-credits"><h3>Map & driving stages</h3><p>Basemap and road geometry: OpenStreetMap contributors, ODbL. Road traces were obtained from OSRM and stored with the site. They are indicative and may include tracks unsuitable for your vehicle or weather. Dashed connections have not been routed.</p><p>Coordinates represent attractions or approximate destination centres. Accommodation locations must be confirmed before travel.</p><a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener noreferrer">OpenStreetMap licence</a> · <a href="https://project-osrm.org/" target="_blank" rel="noopener noreferrer">OSRM</a> · <a href="https://leafletjs.com/" target="_blank" rel="noopener noreferrer">Leaflet</a></div></dialog>
+  <dialog id="share-dialog" aria-labelledby="share-title"><div class="dialog-heading"><h2 id="share-title">Share this version</h2><button class="icon-button" data-close="share-dialog" aria-label="Close share link">×</button></div><p>Copy this link. Anyone who opens it will see this version of the itinerary.</p><label>Plan link<textarea id="share-url" readonly rows="4"></textarea></label></dialog>
+  <div id="toast" role="status" aria-live="polite" hidden></div>
+  <script src="assets/vendor/leaflet.js"></script>
+  <script type="module" src="app.mjs"></script>
+</body>
+</html>

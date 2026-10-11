@@ -1,0 +1,112 @@
+{
+  "ulaanbaatar": {
+    "filename": "ulaanbaatar.webp",
+    "author": "Zboogie31",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ulaanbaatar_skyline_from_Sukhbaatar_square_in_2025.jpg",
+    "caption": "Sükhbaatar Square and the Ulaanbaatar skyline",
+    "width": 1400,
+    "height": 1050,
+    "modifications": "Resized to 1400px wide and re-encoded as WebP; no content added or removed."
+  },
+  "hustai": {
+    "filename": "hustai.webp",
+    "author": "Zazaa Mongolia",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Takhi_%E2%80%93_Wild_horse.jpg",
+    "caption": "Przewalski’s horses (takhi) in Hustai National Park",
+    "width": 1400,
+    "height": 930,
+    "modifications": "Resized to 1400px wide and re-encoded as WebP; no content added or removed."
+  },
+  "khogno": {
+    "filename": "khogno.webp",
+    "author": "MN5",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Elsen_tasarkhai1.jpg",
+    "caption": "Sand dunes and grassland at Elsen Tasarkhai",
+    "width": 1400,
+    "height": 677,
+    "modifications": "Resized to 1400px wide and re-encoded as WebP; no content added or removed."
+  },
+  "kharkhorin": {
+    "filename": "kharkhorin.webp",
+    "author": "Bernard Gagnon",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Erdene_Zuu_Monastery_06.jpg",
+    "caption": "Erdene Zuu Monastery in Kharkhorin",
+    "width": 1400,
+    "height": 933,
+    "modifications": "Resized to 1400px wide and re-encoded as WebP; no content added or removed."
+  },
+  "orkhon": {
+    "filename": "orkhon.webp",
+    "author": "Bernard Gagnon",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ulaan_Tsutgalan_Waterfall.jpg",
+    "caption": "Ulaan Tsutgalan waterfall in the Orkhon Valley",
+    "width": 1400,
+    "height": 833,
+    "modifications": "Resized to 1400px wide and re-encoded as WebP; no content added or removed."
+  },
+  "tsenkher": {
+    "filename": "tsenkher.webp",
+    "author": "Bernard Gagnon",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hotel_Camp_Shiveet_Mankhan_01.jpg",
+    "caption": "Gers at Shiveet Mankhan camp in the Tsenkher hot-spring area",
+    "width": 1400,
+    "height": 839,
+    "modifications": "Resized to 1400px wide and re-encoded as WebP; no content added or removed."
+  },
+  "terkhiin": {
+    "filename": "terkhiin.webp",
+    "author": "Bernard Gagnon",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Terkhiin_Tsagaan_Lake_01.jpg",
+    "caption": "Terkhiin Tsagaan Nuur, the Great White Lake",
+    "width": 1400,
+    "height": 851,
+    "modifications": "Resized to 1400px wide and re-encoded as WebP; no content added or removed."
+  },
+  "tsetserleg": {
+    "filename": "tsetserleg.webp",
+    "author": "Felix Filnkoessl",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tsetserleg_of_Arkhangai.jpg",
+    "caption": "Tsetserleg, the capital of Arkhangai province",
+    "width": 1400,
+    "height": 788,
+    "modifications": "Resized to 1400px wide and re-encoded as WebP; no content added or removed."
+  },
+  "terelj": {
+    "filename": "terelj.webp",
+    "author": "P.Lechien",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Terelj-Gorkhi_steppe.jpg",
+    "caption": "Grassland and mountains in Gorkhi–Terelj National Park",
+    "width": 1400,
+    "height": 787,
+    "modifications": "Resized to 1400px wide and re-encoded as WebP; no content added or removed."
+  },
+  "hero": {
+    "filename": "terkhiin.webp",
+    "author": "Bernard Gagnon",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Terkhiin_Tsagaan_Lake_01.jpg",
+    "caption": "Terkhiin Tsagaan Nuur, the Great White Lake",
+    "width": 1400,
+    "height": 851,
+    "modifications": "Resized to 1400px wide and re-encoded as WebP; no content added or removed."
+  }
+}

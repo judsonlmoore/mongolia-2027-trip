@@ -1,0 +1,78 @@
+{
+  "version": 1,
+  "title": "Mongolia, at our own pace",
+  "startDate": "2027-08-05",
+  "endDate": "2027-08-22",
+  "people": 4,
+  "stayBudget": 50,
+  "otherBudget": 50,
+  "customPlaces": [],
+  "stops": [
+    {
+      "placeId": "ulaanbaatar",
+      "nights": 1,
+      "stay": "Comfortable central hotel",
+      "notes": "Arrive and settle in. Gandan Monastery, Sükhbaatar Square, and the Chinggis Khaan Museum, as arrival time allows."
+    },
+    {
+      "placeId": "hustai",
+      "nights": 1,
+      "stay": "Hustai National Park ger camp",
+      "notes": "Collect the SUV in the morning. Look for wild horses toward evening or the following morning."
+    },
+    {
+      "placeId": "khogno",
+      "nights": 1,
+      "stay": "Ger camp near the dunes",
+      "notes": "Explore Elsen Tasarkhai’s dunes and Khögnö Khan’s rocky hills. Optional short camel ride with a local herder."
+    },
+    {
+      "placeId": "kharkhorin",
+      "nights": 1,
+      "stay": "Secret of the Silk Road · ensuite ger",
+      "notes": "Erdene Zuu Monastery and the archaeological museum, followed by a comfortable evening."
+    },
+    {
+      "placeId": "orkhon",
+      "nights": 2,
+      "stay": "Herder-family guest ger",
+      "notes": "Waterfall and volcanic landscape. A guided 2–4-hour horse ride, valley walks, and time with our hosts. Join household activities only if invited."
+    },
+    {
+      "placeId": "tsenkher",
+      "nights": 2,
+      "stay": "Hot-spring ger camp",
+      "notes": "Take the longer approach back via Kharkhorin and the main road. Soak, walk in the forest, and enjoy a full relaxed day."
+    },
+    {
+      "placeId": "terkhiin",
+      "nights": 3,
+      "stay": "Maikhan Tolgoi · lakeside ger camp",
+      "notes": "Stop in Tsetserleg for supplies on the way. Explore Khorgo volcano and the lava landscape. Keep a full lake day for walks, photography, or weather flexibility."
+    },
+    {
+      "placeId": "tsetserleg",
+      "nights": 1,
+      "stay": "Fairfield Guesthouse",
+      "notes": "Market, museum, laundry, and a good meal. Shared bathrooms, hot showers, and secure parking."
+    },
+    {
+      "placeId": "ulaanbaatar",
+      "nights": 1,
+      "stay": "Comfortable city hotel",
+      "notes": "The longest transfer. Leave early and arrive before dark; enjoy a restful evening."
+    },
+    {
+      "placeId": "terelj",
+      "nights": 2,
+      "stay": "Comfortable ger camp or Terelj Hotel & Spa",
+      "notes": "Granite formations, forested valleys, walking, optional riding, and a possible spa upgrade. Keep the stay flexible for festival dates."
+    },
+    {
+      "placeId": "ulaanbaatar",
+      "nights": 1,
+      "stay": "Good central hotel",
+      "notes": "Nomads Festival if confirmed dates align, otherwise a final morning in Terelj. Return the SUV. Fly home the next day on a connection that lands in Berlin within our travel window."
+    }
+  ]
+}

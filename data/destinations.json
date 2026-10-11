@@ -1,0 +1,153 @@
+{
+  "ulaanbaatar": {
+    "name": "Ulaanbaatar",
+    "shortName": "Ulaanbaatar",
+    "region": "THE CAPITAL",
+    "description": "A short city chapter between stretches of open country. Buddhist heritage, the central square, a major history museum, and a comfortable bed before the road.",
+    "highlights": [
+      "Gandan Monastery",
+      "Sükhbaatar Square",
+      "Chinggis Khaan Museum"
+    ],
+    "stayUrl": "https://all.accor.com/hotel/B1D8/index.en.shtml",
+    "stayLabel": "A central hotel option",
+    "sourceUrl": "https://www.turkishairlines.com/en/flights-from-berlin-to-ulaanbaatar",
+    "sourceLabel": "Berlin flight route",
+    "terrain": "City streets and paved approaches"
+  },
+  "hustai": {
+    "name": "Hustai National Park",
+    "shortName": "Hustai",
+    "region": "WILD HORSES & STEPPE",
+    "description": "Grassland, rounded hills, and the home of reintroduced Przewalski’s horses. An overnight stay leaves time for wildlife viewing in the quieter evening and morning.",
+    "highlights": [
+      "Wild takhi horses",
+      "Evening wildlife viewing",
+      "Our first ger night"
+    ],
+    "stayUrl": "https://www.hustai.mn/introduction/",
+    "stayLabel": "Park’s own ger camp",
+    "sourceUrl": "https://www.hustai.mn/location/",
+    "sourceLabel": "Park access information",
+    "terrain": "Main road, then bumpy park tracks"
+  },
+  "khogno": {
+    "name": "Khögnö Khan & Elsen Tasarkhai",
+    "shortName": "Elsen Tasarkhai",
+    "region": "DUNES & ROCKY HILLS",
+    "description": "A compact dune landscape where sand meets grassland and rocky hills. Time for walking, a short camel ride, and an evening under a wide sky.",
+    "highlights": [
+      "Sand-dune walk",
+      "Optional camel ride",
+      "Rocky hills and grassland"
+    ],
+    "sourceUrl": "https://www.touristinfocenter.mn/TourRoute_more.aspx?ItemID=19",
+    "sourceLabel": "Regional visitor information",
+    "terrain": "Paved highway and established camp tracks"
+  },
+  "kharkhorin": {
+    "name": "Kharkhorin",
+    "shortName": "Kharkhorin",
+    "region": "MONASTERIES & IMPERIAL HISTORY",
+    "description": "Explore the area of the former Mongol imperial capital, Erdene Zuu Monastery, and the archaeological museum. This is also a good moment for an ensuite ger and a comfortable evening.",
+    "highlights": [
+      "Erdene Zuu Monastery",
+      "Archaeological museum",
+      "An ensuite ger"
+    ],
+    "stayUrl": "https://mongoliansecrethistory.mn/accommadotion/mongolian-secret-history-camp",
+    "stayLabel": "Secret of the Silk Road",
+    "sourceUrl": "https://whc.unesco.org/en/list/1081",
+    "sourceLabel": "UNESCO’s Orkhon Valley description",
+    "terrain": "Mostly paved approach"
+  },
+  "orkhon": {
+    "name": "Orkhon Valley",
+    "shortName": "Orkhon Valley",
+    "region": "RIVER VALLEYS & FAMILY LIFE",
+    "description": "A living pastoral landscape, with volcanic rock, river valleys, and the Ulaan Tsutgalan waterfall. A stay with a herder family makes space for conversation and a locally guided ride.",
+    "highlights": [
+      "Ulaan Tsutgalan waterfall",
+      "Herder-family stay",
+      "Guided horse riding"
+    ],
+    "sourceUrl": "https://whc.unesco.org/en/list/1081",
+    "sourceLabel": "UNESCO World Heritage information",
+    "terrain": "Established valley tracks; slow and weather dependent",
+    "dayIdeas": [
+      "Arrange a guided 2–4-hour horse ride, walk through the valley, and spend time with our hosts. Join household activities only if invited."
+    ]
+  },
+  "tsenkher": {
+    "name": "Tsenkher Hot Springs",
+    "shortName": "Tsenkher",
+    "region": "HOT SPRINGS & FOREST",
+    "description": "A countryside hot-spring stay among wooded hills. Allow time for a soak after the long drive and an unhurried day of forest walks. Camp facilities must be confirmed.",
+    "highlights": [
+      "Evening hot-spring soak",
+      "Forest walks",
+      "A full relaxed day"
+    ],
+    "sourceUrl": "https://www.touristinfocenter.mn/TourRoute_more.aspx?ItemID=19",
+    "sourceLabel": "Regional visitor information",
+    "terrain": "Longer main-road approach, then camp-access tracks",
+    "dayIdeas": [
+      "A full relaxed day at the springs. Take a forest walk or arrange a short local excursion; confirm pool access and opening times."
+    ]
+  },
+  "terkhiin": {
+    "name": "Great White Lake & Khorgo",
+    "shortName": "Great White Lake",
+    "region": "VOLCANIC LANDSCAPES & LAKE LIFE",
+    "description": "A lakeside pause at Terkhiin Tsagaan Nuur. Walk up Khorgo volcano, explore the lava landscape, and leave time for lake walks, photographs, and changing weather.",
+    "highlights": [
+      "Khorgo volcano",
+      "Three lakeside nights",
+      "Walking and weather flexibility"
+    ],
+    "stayUrl": "https://maikhantolgoi.com/",
+    "stayLabel": "Maikhan Tolgoi camp",
+    "sourceUrl": "https://maikhantolgoi.com/",
+    "sourceLabel": "Lake access and camp information",
+    "terrain": "Main road via Tsetserleg, then lakeside tracks",
+    "dayIdeas": [
+      "Walk up Khorgo volcano and explore the lava landscape, then spend a quiet afternoon beside the lake.",
+      "Keep this day flexible for lake walks, photography, a locally guided ride, or changing weather."
+    ]
+  },
+  "tsetserleg": {
+    "name": "Tsetserleg",
+    "shortName": "Tsetserleg",
+    "region": "A TOWN BETWEEN THE HILLS",
+    "description": "A practical and pleasant pause on the return journey. Visit the market or museum, do laundry, restock, and get a good night’s sleep before the longest transfer.",
+    "highlights": [
+      "Market and museum",
+      "Laundry and supplies",
+      "A comfortable guesthouse"
+    ],
+    "stayUrl": "https://www.fairfield.mn/arkhangai-stay",
+    "stayLabel": "Fairfield Guesthouse",
+    "sourceUrl": "https://www.fairfield.mn/arkhangai",
+    "sourceLabel": "Local area information",
+    "terrain": "Main-road travel"
+  },
+  "terelj": {
+    "name": "Gorkhi–Terelj National Park",
+    "shortName": "Terelj",
+    "region": "GRANITE, FOREST & A LITTLE LUXURY",
+    "description": "Finish among granite formations and forested valleys. Leave room for walking, optional horse riding, and a resort or spa upgrade before the journey home.",
+    "highlights": [
+      "Granite formations",
+      "Forest and valley walks",
+      "Optional resort and spa upgrade"
+    ],
+    "stayUrl": "https://tereljhotel.com/spa-recreation/",
+    "stayLabel": "Terelj Hotel & Spa",
+    "sourceUrl": "https://tereljhotel.com/",
+    "sourceLabel": "Park and resort information",
+    "terrain": "Paved approach and established local roads",
+    "dayIdeas": [
+      "Enjoy the granite formations and forested valleys. Optional riding, relaxation, or a spa treatment if arranged."
+    ]
+  }
+}
